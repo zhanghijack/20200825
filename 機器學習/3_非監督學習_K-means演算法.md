@@ -1,6 +1,5 @@
 # K-means演算法
 ```
-
 K-means是機器學習中一個比較常用的演算法，屬於無監督學習演算法，其常被用於資料的聚類，
 
 只需為它指定簇的數量即可自動將資料聚合到多類中，
@@ -40,6 +39,13 @@ K-means的聚類過程
 對於所有的c個聚類中心，如果利用（2）（3）的迭代法更新後，值保持不變，則迭代結束，否則繼續迭代。
 
 該演算法的最大優勢在於簡潔和快速。演算法的關鍵在於初始中心的選擇和距離公式。
+```
+```
+K means
+https://www.slideshare.net/ssuserf88631/k-means-42435149
+
+K-means Clustering
+https://www.slideshare.net/annafensel/kmeans-clustering-122651195
 ```
 
 ```
