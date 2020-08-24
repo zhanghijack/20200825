@@ -72,3 +72,16 @@ Pandas 資料結構: 序列與資料框(DataFrame)
 時間序列分析
 股票分析與金融科技
 ```
+###
+```
+Python Data Science Handbook
+
+Chapter 2 Introduction to NumPy
+Chapter 3 Data Manipulation with Pandas
+Chapter 4 Visualization with Matplotlib
+Chapter 5 Machine Learning
+
+https://github.com/jakevdp/PythonDataScienceHandbook
+
+
+```
