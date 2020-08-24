@@ -11,6 +11,7 @@
 
 機器學習應用(1):
 ```
+###
 ```
 scikit-learn 機器學習, 2/e (Mastering Machine Learning with scikit-learn, 2/e) 
 [美]加文·海克（Gavin Hackeling） 張浩然  人民郵電  2019-06-01
@@ -36,4 +37,22 @@ https://github.com/PacktPublishing/Mastering-Machine-Learning-with-scikit-learn-
 
 第13章K-均值算法
 第14章使用主成分分析降維
+```
+### Machine learning basics
+```
+所有的演算法都是從0開始實現，無需其他的機器學習庫。
+
+https://github.com/zotroneneis/machine_learning_basics
+
+
+Linear Regression
+Logistic Regression
+Perceptron
+k-nearest-neighbor
+k-Means clustering
+Simple neural network with one hidden layer
+Multinomial Logistic Regression
+Decision tree for classification
+Decision tree for regression
+
 ```
