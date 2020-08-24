@@ -5,6 +5,11 @@ KNN演算法==「k nearest neighbor」 ===「k個最近的鄰居」
 https://ithelp.ithome.com.tw/articles/10197110
 ```
 ```
+K-Nearest Neighbor (KNN) Classification Algorithm
+https://www.slideshare.net/palinanalytics/knearest-neighbor-knn-classification-algorithm
+```
+### sklearn.neighbors.KNeighborsClassifier
+```
 
 sklearn.neighbors.KNeighborsClassifier
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
@@ -19,6 +24,7 @@ metric='minkowski',
 metric_params=None, 
 n_jobs=None, **kwargs)
 ```
+### 範例說明
 ```
 X = [[0], [1], [2], [3]]
 y = [0, 0, 1, 1]
