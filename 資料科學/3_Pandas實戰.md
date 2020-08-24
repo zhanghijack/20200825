@@ -188,6 +188,7 @@ for key, value in data["retVal"].items():
 第八章 資料處理：連接、合併和重塑
 第十章 資料聚合和分組
 ```
+
 ### pandas裡有幾種方法可以合併資料:以merge()為例
 ```
 Database-Style DataFrame Joins（資料庫風格的DataFrame Joins）
@@ -210,8 +211,20 @@ df2
 
 pd.merge(df1, df2)
 ```
-###
+### GroupBy Mechanics（分組機制）
+```
+把一個pandas對象（series或DataFrame）按key分解為多個
+計算組的匯總統計值（group summary statistics），比如計數，平均值，標準差，或使用者自己定義的函數
 ```
 
+```
+df = pd.DataFrame({'key1' : ['a', 'a', 'b', 'b', 'a'],
+                   'key2' : ['one', 'two', 'one', 'two', 'one'],
+                   'data1' : np.random.randn(5),
+                   'data2' : np.random.randn(5)})
+df
 
+grouped = df['data1'].groupby(df['key1'])
+grouped
+grouped.mean()
 ```
