@@ -40,8 +40,20 @@ https://www.slideshare.net/tw_dsconf/python-83977705
 
 # [2]資料視覺化---Matplotlib
 ```
+[1].Data Visualization資料視覺化
+[2].資料視覺化の套件
+[3].Google Colab上的範利
 
-
+[4].MATPLOTLIB
+[5].MATPLOTLIB範例學習[1]單一圖形
+    matplotlib.pyplot的許多範例
+     plot():折線圖(Line chart):matplotlib.pyplot.plot
+     bar():長條圖|柱狀圖(Bar Chart):matplotlib.pyplot.bar
+     hist():直方圖(histogram):matplotlib.pyplot.hist
+     boxplot():箱形圖 (Box plot):matplotlib.pyplot.boxplot
+     scatter():散佈圖 (Scatter plot): matplotlib.pyplot.scatter
+     圓餅圖
+[6].MATPLOTLIB範例學習[2]多圖形並陳
 ```
 # [3]Pandas資料分析
 ```
