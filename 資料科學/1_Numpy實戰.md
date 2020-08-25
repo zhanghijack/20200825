@@ -582,3 +582,28 @@ ar.sort()
 ar[::-1]
 ```
 
+龍大大 我的億 大樂透 開獎中心
+說明底下程式的處理邏輯
+import random as rand
+
+list1 = rand.sample(range(1,50), 7)
+
+special = list1.pop()
+
+list1.sort()
+
+print("龍大大 我的億 大樂透 開獎中心")
+print("本期大樂透中獎號碼為：", end="")
+for i in range(0,6):
+    if i == 5:    print(str(list1[i]))
+    else:    print(str(list1[i]), end=", ")
+print("本期大樂透特別號為：" + str(special))
+說明底下程式的處理邏輯
+
+[1]產生從1到49的7個不重複的整數
+
+[2]設定中獎號法
+挑出一個當作 特別號
+剩下六個當作 中獎號碼
+
+[3]印出 特殊格式輸出 的 中獎單
