@@ -218,6 +218,11 @@ ar.ravel()
 ```
 import numpy as np
 ar=np.array([np.arange(1,6),np.arange(10,15)])
+ar
+```
+```
+import numpy as np
+ar=np.array([np.arange(1,6),np.arange(10,15)])
 ar.T
 ```
 ### newaxis
